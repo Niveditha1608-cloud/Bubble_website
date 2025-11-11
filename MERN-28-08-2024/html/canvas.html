@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <video controls autoplay muted poster="./pic1.jpg" preload="none">
+        <source src="video1.mp4" type="video/mp4"/>
+    </video>
+    <div>
+        <canvas id="mycanvas" height="200px" width="500px" style="border: 2px solid red;"/>
+    </div>
+    <svg height="200" width="200">
+        <line x1="10" y1="20" x2="100" y2="200" style="stroke:red;stroke-width:5px"/>
+    </svg>
+    <br>
+    <svg height="200" width="200">
+        <rect x="10" y="20" height="100" width="200" style="fill:steelblue;stroke:aqua;stroke-width:3px"/>
+    </svg>
+    <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11v5m0 0 2-2m-2 2-2-2M3 6v1a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1Zm2 2v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8H5Z"/>
+      </svg>
+      
+    <script>
+     let mycanvas=document.getElementById("mycanvas")
+     let myctx=mycanvas.getContext("2d")
+     myctx.moveTo(0,0)
+     myctx.lineTo(100,100)
+     myctx.lineTo(50,100)
+     myctx.stroke()
+     myctx.rect(100,100,200,50)
+     myctx.stroke()
+
+
+    </script>
+    
+</body>
+</html>

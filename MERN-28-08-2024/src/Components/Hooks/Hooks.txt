@@ -1,0 +1,4 @@
+- Hooks should starts with "use" keyword
+- Hooks can be used only within function comp/custom hooks
+- Hooks should be called in top order, it should not called inside any
+nested functions,branching statements

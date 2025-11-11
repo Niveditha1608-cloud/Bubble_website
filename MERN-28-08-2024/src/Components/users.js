@@ -1,0 +1,52 @@
+export let users=[
+    {
+        userid:1,
+        name:"sachin",
+        location:"Mumbai",
+        age:50,
+        hobby:"cricket",
+        inteam:false,
+    },
+    {
+        userid:2,
+        name:"Virat",
+        location:"Mumbai",
+        age:35,
+        hobby:"cricket",
+        inteam:true
+    },
+    {
+        userid:3,
+        name:"Dhoni",
+        location:"Ranchi",
+        age:45,
+        hobby:"cricket",
+        inteam:false
+    },
+    {
+        userid:4,
+        name:"sachin",
+        location:"Mumbai",
+        age:50,
+        hobby:"cricket",
+        inteam:false,
+    },
+    {
+        userid:5,
+        name:"Virat",
+        location:"Mumbai",
+        age:35,
+        hobby:"cricket",
+        inteam:true
+    },
+    {
+        userid:6,
+        name:"Dhoni",
+        location:"Ranchi",
+        age:45,
+        hobby:"cricket",
+        inteam:false
+    },
+
+
+]
